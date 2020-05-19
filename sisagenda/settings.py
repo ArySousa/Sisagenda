@@ -37,6 +37,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'sisagenda.urls'
 
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -56,7 +57,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'sisagenda.wsgi.application'
 
 
-# Database
+
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
